@@ -18,6 +18,7 @@ public class demo {
         // using instant method
         Calculator obj = new Calculator();
         Calculate s4= obj::findMultiply;
+        // or Calculate s4 = new Calculator():: findMultiply
 
     }
 }
